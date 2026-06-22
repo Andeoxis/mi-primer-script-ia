@@ -1,0 +1,10 @@
+{
+  "nombre": "Anthony Leandro",
+  "apellido": "Vasquez Torrico",
+  "edad": 22,
+  "ocupacion": "Estudiante de Sistemas Informáticos",
+  "ubicacion": "Cochabamba, Bolivia",
+  "proyectos": ["Brazo robótico con PocketPy", "Automatización de mi negocio", "Aprender QA Automation"],
+  "meta_2026": "Trabajar de forma remota para una empresa de Inteligencia Artificial",
+  "estilo_mentor": "muy corto, directo y usando modismos de bolivia"
+}
