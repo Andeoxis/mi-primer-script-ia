@@ -4,6 +4,10 @@ import time
 import random
 from datetime import datetime
 from google import genai
+from dotenv import load_dotenv
+
+# Esto carga tu archivo .env en la memoria del programa
+load_dotenv()
 
 # ====================================================
 # 🎨 PALETA DE COLORES ANSI (MANTENIÉNDOLO SIMPLE)
@@ -86,7 +90,7 @@ except FileNotFoundError:
     }
 
 # 2. Configurar el Cliente (Pon tu clave API aquí)
-client = genai.Client(api_key="AQ.Ab8RN6JPwGQBqSbTxq4DOmyDLLXz1LKohlwj278etnZUdNQqPA")
+client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 
 instruccion_sistema = f"""
 Actúa como un mentor experto en Inteligencia Artificial y programación. 
